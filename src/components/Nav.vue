@@ -4,7 +4,6 @@
         <a href="#sec-1">About</a>
         <a href="#sec-2">Experience</a>
         <a href="#sec-3">Projects</a>
-        
       </div>
 </div>
 </template>
@@ -39,6 +38,8 @@ export default {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  width: 30%;
+  
 }
 
 .navbar a:hover {

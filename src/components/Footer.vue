@@ -7,9 +7,9 @@
             <h6>© Anuj 2021</h6>
             <p class="text-justify footer-links" style="padding-top:0px">Handcrafted with Vue and CSS.</p>
             <ul class="social-icons">
-              <div><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></div>
-              <div><a class="twitter" href="#"><i class="fa fa-whatsapp"></i></a></div>
-              <div><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></div>
+              <div><a class="facebook" href="https://www.facebook.com/profile.php?id=100006158580105" target="blank"><i class="fa fa-facebook"></i></a></div>
+              <div><a class="whatsapp" href='https://wa.me/+916307675032' target="blank"><i class="fa fa-whatsapp"></i></a></div>
+              <div><a class="instagram" href="https://www.instagram.com/foxface_ap/" target="blank"><i class="fa fa-instagram"></i></a></div>
             </ul>
           </div>
 
@@ -84,7 +84,10 @@ export default {
   text-shadow: 0 0 5px #ade7fa;
 }
 
-.site-footer a
+
+
+
+site-footer a
 {
   color:#ade7fa;
 }
@@ -198,13 +201,9 @@ export default {
 {
   background-color:#4267B2;
 }
-.social-icons a.twitter:hover
+.social-icons a.whatsapp:hover
 {
   background-color: #25D366;
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6;
 }
 .social-icons a.instagram:hover
 {

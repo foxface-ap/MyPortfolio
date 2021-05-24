@@ -75,11 +75,12 @@ export default {
 
 #heading {
     text-align: center;
-    margin: 2em;
+    margin-bottom: 50px;
+    margin-top: 20px;
     padding-top: 70px;
     color: #fff;
+    font-size: 2rem;
 }
-
 
 .container3 {
     width: 100%;
@@ -104,7 +105,7 @@ export default {
     align-items: center;
     flex-direction: column;
     position: relative;
-    width: 250px;
+    width: 270px;
     background: #006182;
     margin: 1em;
     padding: .5em;

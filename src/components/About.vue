@@ -11,18 +11,19 @@
               <div class="lii">
                 <li>CSS</li>
                 <li>HTML5</li>
-                <li>CSS</li>
                 <li>JavaScript</li>
                 <li>VueJs</li>
                 <li>ReactJs</li>
+                <li>Git</li>
+                <li>DBMS</li>
               </div>
-              <div class="lii">
+              <div class="lii" >
                 <li>C/C++</li>
               <li>Python</li>
               <li>Django</li>
               <li>DSA</li>
-                  <li>Problem Solving</li>
-                  <li>System Design</li>
+              <li>Problem Solving</li>
+              <li>System Design</li>
               </div>
             </ul>
             <h1>Links</h1>
@@ -48,7 +49,8 @@
       </div>
       <div class="col-md-9 content">
         <h2 id="por">Position of Responsibility</h2>
-        <ul>
+        <hr style="border: #ade7fa solid 0.5px;transform : translate(-10px);">
+        <ul id="pad-ul">
           <h5 class="pos">1. RECursion, NIT Dgp Senior Coordinator</h5>
           <p class="details">Part of the Teaching and Web Development team, the task is to
             monitor the functioning of the official website of the club and
@@ -84,40 +86,43 @@ export default {
 .lii {
   width:50%;
   float:left;
-  font-size: 1.8rem;
+  font-size: 1rem;
+  transform: translateX(-30%);
 }
 
 @media only screen and (max-width: 1340px) {
   .lii {
     width:100%;
     float:none;
-    font-size: 1.8rem;
+    font-size: 1rem;
+    transform: translateX(-10%);
   }
 }
 
 
 #por{
-  font-size: 4rem;
+  padding-top:20px;
+  font-size: 2.4rem;
   font-weight: 300px;
 }
 .pos{
-   font-size: 2.5rem;
+   font-size: 1.8rem;
 }
 .details{
-   font-size: 1.8rem;
+   font-size: 1.3rem;
    padding-top: 0px;
 }
 
 @media only screen and (max-width: 1200px) {
   #por{
-    font-size: 2.8rem;
+    font-size: 2.1rem;
     font-weight: 300px;
   }
   .pos{
-    font-size: 2.3rem;
+    font-size: 1.6rem;
   }
   .details{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
 }
@@ -130,6 +135,7 @@ export default {
   color: #001b24;
   box-sizing: border-box;
   font-weight: 600;
+  
 }
 
 .row{
@@ -169,11 +175,18 @@ export default {
 }
 .content p{
   text-align: left;
+  margin: 1px;  
+  padding-left:10px;
 }
 
 ul {
   list-style: none;
 }
+
+#pad-ul{
+   padding-left: 10px;
+}
+
 
 li {
   margin-bottom: 8px;
@@ -199,12 +212,10 @@ li:before {
     border-top-right-radius: 15px;
     transform: translate(0px);
   }
-  .content p{
-    margin: 1px;
-    
-  }
   .content {
-    padding-left: 30px;
+    padding: 30px 0px 30px 30px;
+    overflow: auto;
+    color: #dbf5fd;
   }
   .container {
   position: relative;

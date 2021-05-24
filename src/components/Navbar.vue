@@ -19,7 +19,7 @@
                     <span style="font-weight: 700;color: #138808;text-shadow: 0 0 3px #ade7fa;">I</span>
                     <span style="font-weight: 800;color: #138808;text-shadow: 0 0 3px #ade7fa;">A</span>
                     👋");
-                    <hr>
+                    <hr style="border: #ade7fa solid 0.5px;">
                   {<br>
                     &nbsp; 1 &nbsp; class Person {<br>
                     &nbsp; 2 &nbsp;&nbsp;&nbsp;     constructor() {<br>
@@ -97,14 +97,16 @@ export default {
   margin: 0 auto;
   padding: 15px;
   position: relative;
-   font-size: 2.3rem;
+   font-size: 1.3rem;
   color: #dbf5fd;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 560px) {
     .description{
-    font-size: 1.8rem;
+    font-size: .82rem;
     color: #dbf5fd;
+    padding-left: 0px;
+    
   }
 }
 
